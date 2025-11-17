@@ -42,3 +42,8 @@ number = 100
 while number > 0:
     print(number, end=" ")
     number //= 2
+print()  # New Line
+cmd = ""
+while cmd.lower() != "quit":
+    cmd = input(">")
+    print("ECHO", cmd)
