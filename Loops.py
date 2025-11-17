@@ -29,3 +29,16 @@ for x in range(5):
 print("\n\nIterables:")
 print(type(5))
 print(type(range(5)))
+
+for x in "Python":
+    print(x)
+print()  # New Line
+for x in [1, 2, 3, 4]:
+    print(x)
+
+
+print("\n\nWhile Loops:")
+number = 100
+while number > 0:
+    print(number, end=" ")
+    number //= 2
