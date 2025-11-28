@@ -47,3 +47,12 @@ cmd = ""
 while cmd.lower() != "quit":
     cmd = input(">")
     print("ECHO", cmd)
+
+
+print("\n\nInfinite Loops:")
+while True:
+    cmd = input(">")
+    print("ECHO", cmd)
+    if cmd.lower() == "quit":
+        break
+    # if we remove if statement or comment out it
