@@ -56,3 +56,11 @@ while True:
     if cmd.lower() == "quit":
         break
     # if we remove if statement or comment out it
+
+print("\n\nExercise:")
+count = 0
+for x in range(1, 10):
+    if x % 2 == 0:
+        print(x)
+        count += 1
+print(f"We have {count} even numbers")
