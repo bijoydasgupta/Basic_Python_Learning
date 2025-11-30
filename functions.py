@@ -57,3 +57,23 @@ def inc3(number, by=1):
 
 
 print(inc3(2, 5))
+
+print("\n\nxargs:")
+
+
+def multiply(* numbers):
+    for x in numbers:
+        print(x)
+
+
+multiply(2, 3, 4, 5)
+
+
+def multiply2(* numbers):
+    total = 1
+    for x in numbers:
+        total *= x
+    return total
+
+
+print(multiply2(2, 3, 4, 5))
