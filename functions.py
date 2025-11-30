@@ -40,3 +40,20 @@ def increment(number, by):
 
 
 print(increment(2, by=1))
+
+
+print("\n\nDefault Arguments:")
+
+
+def inc2(number, by=1):
+    return number+by
+
+
+print(inc2(2))
+
+
+def inc3(number, by=1):
+    return number+by
+
+
+print(inc3(2, 5))
